@@ -1,0 +1,28 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#textareabox{
+    height: 100px;
+    width: 400px;
+    position: relative;
+    top: 50px;
+    margin: auto;
+}
+#textbox{
+    resize: none;
+    height: 100px;
+    width: 400px;
+}
+#submit{
+    height: 20px;
+    width: 60px;
+    background-color: blue;
+}
+#submit:hover{
+    cursor: pointer ;
+}
+textarea::placeholder{
+    color: blue;
+}
